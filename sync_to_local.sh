@@ -1,8 +1,8 @@
 #! /bin/bash
 
-path = `pwd`
+SRC_PATH=`pwd`
 
-mv ~/Library/Developer/Xcode/UserData/CodeSnippets ${path}/CodeSnippetsBackup
-ln -s ${path}/CodeSnippets ~/Library/Developer/Xcode/UserData/CodeSnippets
+mv -r ~/Library/Developer/Xcode/UserData/CodeSnippets ${SRC_PATH}/CodeSnippetsBackup
+ln -s ${SRC_PATH}/CodeSnippets ~/Library/Developer/Xcode/UserData/CodeSnippets
 
 echo 'sync to local done'

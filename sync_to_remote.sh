@@ -1,10 +1,10 @@
 #! /bin/bash
 
-path = `pwd`
+SRC_PATH=`pwd`
 
-mv ${path}/CodeSnippets ${path}/CodeSnippetsBackup
-rm -fr ${path}/CodeSnippets
-mv ~/Library/Developer/Xcode/UserData/CodeSnippets ${path}/
+mv ${SRC_PATH}/CodeSnippets ${SRC_PATH}/CodeSnippetsBackup
+rm -fr ${SRC_PATH}/CodeSnippets
+mv ~/Library/Developer/Xcode/UserData/CodeSnippets ${SRC_PATH}/
 git add .
 git commit -m "update configure"
 
