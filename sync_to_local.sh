@@ -2,7 +2,12 @@
 
 SRC_PATH=`pwd`
 
-mv -r ~/Library/Developer/Xcode/UserData/CodeSnippets ${SRC_PATH}/CodeSnippetsBackup
-ln -s ${SRC_PATH}/CodeSnippets ~/Library/Developer/Xcode/UserData/CodeSnippets
+if [[ $1 = "git" ]]; then
+  git pull
+fi
+
+rm -fr ${SRC_PATH}/CodeSnippetsBackup
+mv ~/Library/Developer/Xcode/UserData/CodeSnippets ${SRC_PATH}/CodeSnippetsBackup
+cp -fr ${SRC_PATH}/CodeSnippets ~/Library/Developer/Xcode/UserData/
 
 echo 'sync to local done'

@@ -4,8 +4,12 @@ SRC_PATH=`pwd`
 
 mv ${SRC_PATH}/CodeSnippets ${SRC_PATH}/CodeSnippetsBackup
 rm -fr ${SRC_PATH}/CodeSnippets
-mv ~/Library/Developer/Xcode/UserData/CodeSnippets ${SRC_PATH}/
+cp -fr ~/Library/Developer/Xcode/UserData/CodeSnippets ${SRC_PATH}
+
+if [[ $1 = "git" ]]; then
 git add .
 git commit -m "update configure"
+git push
+fi
 
 echo 'sync to remote done'
