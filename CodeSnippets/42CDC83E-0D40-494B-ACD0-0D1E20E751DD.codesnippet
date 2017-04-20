@@ -3,21 +3,29 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>proan</string>
+	<string>singleton</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (assign, nonatomic) &lt;#name#&gt;;</string>
+	<string>+ (instancetype)shared {
+    static &lt;#type#&gt; *singleton = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&amp;onceToken, ^{
+        singleton = [[self alloc] init];
+    });
+    return singleton;
+}
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>CA906D3E-A724-48B7-A6F2-ECB84ACA9A25</string>
+	<string>42CDC83E-0D40-494B-ACD0-0D1E20E751DD</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>property assign nonatomic</string>
+	<string>singleton</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>property assign nonatomic</string>
+	<string>singleton</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
