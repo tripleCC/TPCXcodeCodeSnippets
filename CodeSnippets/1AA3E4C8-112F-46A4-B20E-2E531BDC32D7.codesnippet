@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>prosn</string>
+	<string>mark</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (strong, nonatomic) &lt;#name#&gt;;</string>
+	<string>#pragma mark - &lt;#name#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>713803B8-10FF-4E08-8998-CD98C4DDF02B</string>
+	<string>1AA3E4C8-112F-46A4-B20E-2E531BDC32D7</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>property strong nonatomic</string>
+	<string>mark -</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>property strong nonatomic</string>
+	<string>mark -</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

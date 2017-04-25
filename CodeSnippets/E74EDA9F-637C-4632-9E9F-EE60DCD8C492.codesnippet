@@ -6,10 +6,10 @@
 	<string>prosnr</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (strong, nonatomic, readonly) NSInteger requestId;</string>
+	<string>@property (strong, nonatomic, readonly) &lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>E74EDA9F-637C-4632-9E9F-EE60DCD8C492</string>
 	<key>IDECodeSnippetLanguage</key>

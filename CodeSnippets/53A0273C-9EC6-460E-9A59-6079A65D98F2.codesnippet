@@ -3,21 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>prosn</string>
+	<string>warnigndep</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (strong, nonatomic) &lt;#name#&gt;;</string>
+	<string>#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
+&lt;#code#&gt;
+#pragma GCC diagnostic pop</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>713803B8-10FF-4E08-8998-CD98C4DDF02B</string>
+	<string>53A0273C-9EC6-460E-9A59-6079A65D98F2</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>property strong nonatomic</string>
+	<string>warn ignored deprecated declarations</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>property strong nonatomic</string>
+	<string>warn ignored deprecated declarations</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
