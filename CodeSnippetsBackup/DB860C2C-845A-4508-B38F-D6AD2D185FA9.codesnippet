@@ -11,7 +11,7 @@
 	<key>IDECodeSnippetContents</key>
 	<string>- &lt;#name#&gt; {
     if (!_&lt;#name#&gt;) {
-        &lt;#content#&gt;
+        _&lt;#code#&gt; = &lt;#code#&gt;;
     }
     
     return _&lt;#name#&gt;;

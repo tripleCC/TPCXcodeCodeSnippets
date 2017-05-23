@@ -6,7 +6,7 @@
 	<string>proan</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>@property (assign, nonatomic) &lt;#name#&gt;;</string>
