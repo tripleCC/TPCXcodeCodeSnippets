@@ -3,36 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>tpc view organization</string>
+	<string>tpc nr</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - Life Cycle
-
-#pragma mark - Public Method
-
-#pragma mark - Private Method
-
-#pragma mark Action
-
-#pragma mark Network
-
-#pragma mark - XXXXXDelegate
-
-#pragma mark - Accessor</string>
+	<string>@property (nonatomic, readonly) NSInteger &lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>059A2630-9B7A-4027-AFDB-BC61D32413FC</string>
+	<string>42BE4ED7-DC0F-4167-94E4-3CB584BC2108</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>视图代码组织</string>
+	<string>a prop non readonly</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>a view organization</string>
+	<string>a prop non readonly</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
